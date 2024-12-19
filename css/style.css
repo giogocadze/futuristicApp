@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainNavContainer {
+    display: flex;
+    width: 100%;
+    padding: 0px 24px;
+    background: #0B0121;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: stretch;
+
+}
+
+.navBox {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+#flow {
+    color: white;
+    color: #ECECEC;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.list {
+    display: flex;
+    padding: 24px 12px;
+    align-items: flex-start;
+    text-decoration: none;
+    color: #ECECEC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+#app {
+    border-radius: 50px;
+    border: 1px solid #ECECEC;
+    background: #ECECEC;
+    padding: 8px 20px;
+    color: #0B081C;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+#expert {
+    color: #ECECEC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    border-radius: 50px;
+    border: 1px solid #ECECEC;
+    padding: 8px 20px;
+    background: black;
+}
+
+.container {
+    height: 1200px;
+    background-image: url('../image/Hero\ Stack\ \(1\).svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 170px 20px 80px 20px;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+}
+
+.funds {
+    color: #F2F4F8;
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    border-radius: 62px;
+    border: 1.2px solid rgba(255, 255, 255, 0.30);
+    padding: 9.905px 19.811px;
+
+
+}
+
+#analytics {
+    color: #ECECEC;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    width: 960px;
+    text-align: center;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+#lorem {
+    color: rgba(236, 236, 236, 0.65);
+    width: 600px;
+    text-align: center;
+    height: 58px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+
+}
+
+.butttons {
+    display: flex;
+    padding-top: 16px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+#dowloand {
+    padding: 12px 24px;
+    background: #ECECEC;
+    border-radius: 60px;
+    color: #0B081C;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+
+#talk {
+    padding: 12px 24px;
+    border-radius: 60px;
+    border: 1px solid #ECECEC;
+    color: #ECECEC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    background: none;
+}
+
+.companies {
+    display: flex;
+    padding: 60px 20px;
+    flex-direction: column;
+    background-image: url("../image/sniping.png");
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    gap: 40px;
+}
+
+.companieInformation {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    display: flex;
+    
+}
+
+#number {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+}
+.images {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
